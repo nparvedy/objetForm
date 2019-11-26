@@ -1,0 +1,24 @@
+.form-input-text{
+    border-radius:3px;
+    border: 3px solid #ccc;
+    border-style: inset;
+
+    -webkit-transition: 0.5s;
+    outline: none;
+}
+
+.form-input-text:focus{
+    border: 3px solid #555;
+    border-style: inset;
+
+}
+
+.form-label{
+    display:flex;
+    flex-direction:column;
+    width:20%;
+}
+
+.form-button {
+    width:50%;
+}
